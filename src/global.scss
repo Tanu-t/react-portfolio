@@ -1,0 +1,9 @@
+$mainColor: hsl(250deg 27.91% 11.2%);;
+
+$width: 768px;
+
+@mixin mobile {
+    @media (max-width: #{$width}){
+        @content
+    }
+}
